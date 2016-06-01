@@ -18,6 +18,9 @@
 		88EB0C331CF9062E008AC35C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB0C321CF9062E008AC35C /* Common.swift */; };
 		88EB0C351CF906E4008AC35C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB0C341CF906E4008AC35C /* IntroViewController.swift */; };
 		88EB0C381CFD58E0008AC35C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB0C371CFD58E0008AC35C /* LoginViewController.swift */; };
+		88F333CB1CFE99AB008E2EA6 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F333CA1CFE99AB008E2EA6 /* TimeLineViewController.swift */; };
+		88F333CD1CFEAA51008E2EA6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F333CC1CFEAA51008E2EA6 /* SettingsViewController.swift */; };
+		88F333CF1CFEAA5C008E2EA6 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F333CE1CFEAA5C008E2EA6 /* ConversationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		88EB0C321CF9062E008AC35C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		88EB0C341CF906E4008AC35C /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		88EB0C371CFD58E0008AC35C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		88F333CA1CFE99AB008E2EA6 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		88F333CC1CFEAA51008E2EA6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		88F333CE1CFEAA5C008E2EA6 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,9 @@
 				88EB0C341CF906E4008AC35C /* IntroViewController.swift */,
 				88EB0C371CFD58E0008AC35C /* LoginViewController.swift */,
 				88517DFA1CFE308900890191 /* TutorialViewController.swift */,
+				88F333CA1CFE99AB008E2EA6 /* TimeLineViewController.swift */,
+				88F333CC1CFEAA51008E2EA6 /* SettingsViewController.swift */,
+				88F333CE1CFEAA5C008E2EA6 /* ConversationsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -278,10 +287,13 @@
 			files = (
 				88EB0C071CF9041C008AC35C /* ViewController.swift in Sources */,
 				88EB0C051CF9041C008AC35C /* AppDelegate.swift in Sources */,
+				88F333CB1CFE99AB008E2EA6 /* TimeLineViewController.swift in Sources */,
 				88EB0C331CF9062E008AC35C /* Common.swift in Sources */,
 				88EB0C381CFD58E0008AC35C /* LoginViewController.swift in Sources */,
 				88517DFB1CFE308900890191 /* TutorialViewController.swift in Sources */,
+				88F333CF1CFEAA5C008E2EA6 /* ConversationsViewController.swift in Sources */,
 				88EB0C351CF906E4008AC35C /* IntroViewController.swift in Sources */,
+				88F333CD1CFEAA51008E2EA6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
